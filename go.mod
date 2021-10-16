@@ -1,3 +1,3 @@
-module marwan.io/wasm-fetch
+module github.com/mlctrez/wasm-fetch
 
-go 1.12
+go 1.17
