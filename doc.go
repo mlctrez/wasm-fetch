@@ -6,7 +6,7 @@
 		"context"
 		"time"
 
-		"marwan.io/wasm-fetch"
+		"github.com/mlctrez/wasm-fetch"
 	)
 
 	ctx, cancel := context.WithTimeout(context.Background(), time.Second)

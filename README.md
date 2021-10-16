@@ -1,14 +1,18 @@
 # WASM-FETCH
-[![GoDoc](https://godoc.org/marwan.io/wasm-fetch?status.svg)](https://godoc.org/marwan.io/wasm-fetch)
+[![GoDoc](https://godoc.org/mlctrez/wasm-fetch?status.svg)](https://godoc.org/mlctrez/wasm-fetch)
 
- A go-wasm library that wraps the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+A go-wasm library that wraps the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 
 ### Install
-`go get marwan.io/wasm-fetch`
+`go get github.com/mlctrez/wasm-fetch`
 
 ### Motivation
 Importing net/http adds ~4 MBs to your wasm binary. If that's an issue for you, you can use this
 library to make fetch calls.
+
+### Fork
+Forked from [https://github.com/marwan-at-work/wasm-fetch](https://github.com/marwan-at-work/wasm-fetch) to add allow
+use in [https://github.com/maxence-charriere/go-app](github.com/maxence-charriere/go-app). 
 
 
 ### Example
@@ -20,7 +24,7 @@ import (
     "context"
     "time"
 
-    "marwan.io/wasm-fetch"
+    "github.com/mlctrez/wasm-fetch"
 )
 
 ctx, cancel := context.WithTimeout(context.Background(), time.Second)
