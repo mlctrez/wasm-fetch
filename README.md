@@ -11,8 +11,9 @@ Importing net/http adds ~4 MBs to your wasm binary. If that's an issue for you, 
 library to make fetch calls.
 
 ### Fork
-Forked from [https://github.com/marwan-at-work/wasm-fetch](https://github.com/marwan-at-work/wasm-fetch) to add allow
-use in [https://github.com/maxence-charriere/go-app](github.com/maxence-charriere/go-app). 
+Forked from [https://github.com/marwan-at-work/wasm-fetch](https://github.com/marwan-at-work/wasm-fetch) to allow
+use in [https://github.com/maxence-charriere/go-app](github.com/maxence-charriere/go-app).  This fork provides 
+implementations for wasm and a stub for !wasm that allows importing and usage into multi-architecture source.
 
 
 ### Example
